@@ -32,13 +32,7 @@ sudo apt-get install -y nodejs npm python3 python3-pip python3-venv
 npm install -g @anthropic-ai/claude-code
 ```
 
-### 3. Set Up Your API Key
-```bash
-cp .env.example .env
-```
-Open `.env` in a text editor and paste your Anthropic API key. You can get one at [console.anthropic.com](https://console.anthropic.com/). If your project uses OpenAI, uncomment and fill in `OPENAI_API_KEY` as well.
-
-### 4. Verify Everything Works
+### 3. Verify Everything Works
 ```bash
 node --version     # Should be 18+
 python3 --version  # Should be 3.10+
@@ -137,3 +131,15 @@ At the end, you'll show:
 3. Your FastAPI docs at `/docs`
 4. Your `git log` — proof you built it step by step
 5. Your test results — proof it actually works
+
+---
+
+## Dealing with API Keys
+
+If your startup needs to call external APIs (e.g. OpenAI, Anthropic, Stripe), don't hardcode keys in your code. Use a `.env` file instead:
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` in a text editor and fill in the keys you need. This file is already in `.gitignore` so it won't be committed.
