@@ -25,7 +25,28 @@ If they have an idea, proceed with the questions:
 5. **Who is your target customer?** (Be specific — not "everyone")
 6. **Pick a primary brand color.** (Suggest a few hex codes based on their vibe, let them pick)
 7. **What's the tone?** (Professional / Playful / Minimal / Bold — or their own word)
-8. **Any website or brand you admire for inspiration?** (Optional, fine to skip)
+8. **Any website or brand you admire for design inspiration?** (Optional, fine to skip)
+
+## Step 2b: Research design inspiration
+
+If the participant named a website or brand in question 8:
+
+1. Use WebSearch to find their landing page and study it
+2. Use WebSearch to look for design reviews, UI breakdowns, or screenshots of that site
+3. Identify and note the specific design patterns:
+   - Color palette (primary, secondary, accent colors — find the actual hex codes)
+   - Typography style (serif vs sans-serif, bold headlines vs light, size contrast)
+   - Layout patterns (full-bleed hero? split layout? centered? cards?)
+   - Spacing feel (airy and minimal? dense and information-rich?)
+   - Visual flourishes (gradients, illustrations, animations, shadows, rounded vs sharp)
+   - CTA style (color, shape, copy tone)
+   - Overall mood (corporate, playful, premium, technical, warm)
+4. Present a short summary to the participant: "Here's what I noticed about [site]'s design..." and list 4-5 specific design traits you'll incorporate
+5. Use AskUserQuestion to confirm: **"I'll use these design cues for your landing page. Want to adjust anything?"**
+
+Store the design notes in the overview file under "Design Direction > Inspiration".
+
+If they skipped question 8, move on.
 
 ## Step 3: Write the overview
 

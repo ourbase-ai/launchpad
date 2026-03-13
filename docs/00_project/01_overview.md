@@ -24,7 +24,16 @@ This is a real, deployable website — not a mockup.
 
 **Primary Color**: [Pick one — e.g., #2563EB]
 **Tone**: [Professional / Playful / Minimal / Bold]
-**Inspiration**: [Any website or brand you admire?]
+
+### Inspiration
+
+**Reference site**: [Any website or brand you admire?]
+**Design traits to borrow**:
+- [Color palette: e.g. "dark navy hero with white text, coral accents"]
+- [Typography: e.g. "bold sans-serif headlines, light body text"]
+- [Layout: e.g. "full-bleed hero, alternating sections, lots of whitespace"]
+- [Visual style: e.g. "subtle gradients, rounded cards, soft shadows"]
+- [CTA style: e.g. "bright accent color, rounded pill buttons"]
 
 ## Tech Stack (Fixed)
 

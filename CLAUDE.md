@@ -91,6 +91,11 @@ When building the frontend, follow these principles to produce a professional re
 - **Color**: Use the primary color from `docs/00_project/01_overview.md` for CTAs and accents only. Keep backgrounds neutral (`white`, `gray-50`, `gray-900`). Alternate section backgrounds for visual rhythm.
 - **Mobile-first**: Always start with mobile layout, add responsive breakpoints with `md:` and `lg:` prefixes.
 - **Transitions**: Add subtle transitions on interactive elements (`transition-colors duration-200`).
+- **Icons**: Use `lucide-react` for all icons. Import only what you need (e.g. `import { Zap, Shield, Clock } from "lucide-react"`). Size icons with `size={24}` or Tailwind `w-6 h-6`.
+- **Animations**: Use `framer-motion` for scroll animations. Wrap sections in `motion.div` with `initial`, `whileInView`, and `viewport={{ once: true }}`. Stagger feature cards for a polished reveal. Keep animations subtle — `y: 20` fade-ups, `duration: 0.5`.
+- **Backgrounds**: Avoid flat single-color sections. Use gradients (`bg-gradient-to-br`), subtle patterns, or alternating light/dark sections to create visual depth.
+- **Visual variety**: Alternate section layouts. Not every section should be centered text + grid. Mix in left-right layouts, numbered steps, and quote cards.
+- **Remotion compositions**: Use `@remotion/player` with `<Player>` for timeline-based animations. Import from `remotion` (`useCurrentFrame`, `interpolate`, `AbsoluteFill`, `Sequence`). Keep compositions self-contained in their own files under `frontend/components/`. Always set `autoPlay`, `loop`, `controls={false}`. Use `interpolate()` for smooth easing — never raw frame math.
 
 ## Customization
 

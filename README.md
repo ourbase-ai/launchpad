@@ -43,24 +43,41 @@ claude --version   # Should print a version number
 
 ## Hackathon Day
 
+### 1. Get the code
+
+**Option A — Download ZIP (easiest):**
+1. Go to [github.com/andirs/launchpad](https://github.com/andirs/launchpad)
+2. Click the green **"Code"** button, then **"Download ZIP"**
+3. Unzip the folder and open your terminal in that folder
+
+**Option B — Git clone (if you have git):**
 ```bash
-# 1. Clone this repo
-git clone <repo-url>
+git clone https://github.com/andirs/launchpad.git
 cd launchpad
+```
 
-# 2. Install everything (Python venv + deps + Node deps)
+### 2. Install everything
+```bash
 npm run setup
+```
 
-# 3. Initialize git
-git init && git add -A && git commit -m "initial: starting hackathon"
+### 3. Set up git (tracks your progress)
+```bash
+git init
+git add -A
+git commit -m "initial: starting hackathon"
+```
 
-# 4. Launch Claude Code
+### 4. Launch Claude Code and start building
+```bash
 claude
-
-# 5. Define your startup idea:
+```
+Then inside Claude Code, type:
+```
 /interview
-
-# 6. Start building:
+```
+When the interview is done, type:
+```
 /start
 ```
 
