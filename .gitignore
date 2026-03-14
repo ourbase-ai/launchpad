@@ -10,6 +10,7 @@ playwright-report/
 .venv/
 *.egg-info/
 package-lock.json
+*.db
 .claude/projects/
 .claude/statsig/
 .claude/todos/
